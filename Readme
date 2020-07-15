@@ -6,3 +6,10 @@ Descriptions of the files in this repository follow:
 
 association_code.R
 This file contains all of the R code used to identify marker trait associations.
+
+Hillquist_VCF_files
+A folder containing zipped VCF files for sequencing data aligned against the Hillquist V1 genome
+
+Rubus_occidentalis_VCF_files
+A folder containing zipped VCF files for sequencing data aligned against the Rubus occidentalis V3 genome
+
