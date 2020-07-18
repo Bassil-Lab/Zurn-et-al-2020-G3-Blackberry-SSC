@@ -16,9 +16,9 @@ Step 3. Run make_combined_genotype_table.py
 
 make_combined_genotype_table.py requires 4 arguments:
 
--g --sample_genotypes This the path and file name to a one column file that contains a text file that conatins the path and file name to all vcf files being used. All samples must be in the same order.
--d --sample_depths This the path and file name to a one column file that contains a text file that contains the path and file names to all the depth files being used. All samples must be in the same order.
--s --sample_names This the path and file name to a one column file that contains a text file that contains all the short sample names. All samples must be in the same order.
+-g --sample_genotypes This the path and file name to a one column text file that conatins the path and file name to all vcf files being used. All samples must be in the same order.
+-d --sample_depths This the path and file name to a one column text file contains the path and file names to all the depth files being used. All samples must be in the same order.
+-s --sample_names This the path and file name to a one column text file contains all the short sample names. All samples must be in the same order.
 -o --out_file This is the path and file name to output.
 
 Example useage: ./make_combined_genotype_table.py -g /path/to/sample_genotypes.txt -d /path/to/sample_depths.txt -s /path/to/sample_depths.txt -o /path/to/my/output_table.tsv
